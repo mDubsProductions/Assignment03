@@ -1,0 +1,118 @@
+@import 'bootstrap.scss';
+
+.carousel-item{
+    height: 450px;
+}
+
+.carousel-image-1{
+    background: url('../img/image1.jpg');
+}
+
+#home-heading{
+    position: relative;
+    min-height: 200px;
+    background: url(../img/lights.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: white;
+}
+
+.dark-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7)
+}
+
+.odd, .even{
+    color: white;
+    padding: 15px;
+}
+
+.odd{
+    background: red;
+}
+
+.even{
+    background: #333;
+}
+
+.info{
+    border: 1px solid black;
+}
+
+#form{
+    height: 480px;
+    padding: 50px;
+}
+
+#firstName{
+    width: 250px;
+}
+
+#lastName{
+    width: 266px;
+}
+
+#Email{
+    width: 250px;
+}
+
+#Phone{
+    width: 266px;
+}
+
+#Message{
+    width: 563px;
+}
+
+#staff{
+    padding: 50px;
+}
+
+#submitBtn{
+    width: 563px;
+    color: red;
+    background: none;
+    border: 1px solid red;
+}
+
+#phone{
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+}
+
+.headshot{
+    border-radius: 50%;
+}
+
+.wallpaper{
+    background-image: url(../img/image3.jpg);
+    color: white;
+}
+
+#video-play{
+    position: relative;
+    min-height: 200px;
+    background: url(../img/media.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 0 -300px;
+    color: white;
+}
+
+footer#main-footer{
+    background-color: #000;
+    color: #fff
+}
+
+.card{
+    border: 1px solid #333;
+    .card-body{
+        background: #ccc;
+    }
+}
