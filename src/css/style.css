@@ -6676,10 +6676,14 @@ a.text-dark:hover, a.text-dark:focus {
 #home-heading {
   position: relative;
   min-height: 200px;
-  background: url(../img/lights.jpg);
+  background: url(../img/background.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background-size: 100%;
   text-align: center;
+  color: white; }
+
+h5, .text {
   color: white; }
 
 .dark-overlay {
@@ -6695,13 +6699,23 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 15px; }
 
 .odd {
-  background: red; }
+  background: purple; }
 
 .even {
   background: #333; }
 
 .info {
   border: 1px solid black; }
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 50%; }
+
+td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 10px; }
 
 #form {
   height: 480px;

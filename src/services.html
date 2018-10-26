@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Glozzum: Services</title>
+    <title>mDubsProductions</title>
     <!-- These link tags must be in this order -->
     <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
@@ -15,7 +15,6 @@
 <body>
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="index.html">Glozzum</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -25,13 +24,13 @@
                       <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="about.html">About Us</a>
+                      <a class="nav-link" href="about.html">About</a>
                     </li>
                     <li class="nav-item active">
                       <a class="nav-link" href="services.html">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="blog.html">Blog</a>
+                        <a class="nav-link" href="creations.html">Creations</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
@@ -41,12 +40,80 @@
             </div> <!-- end .container -->
         </nav>
 
+        <section>
+            <div class="row">
+              <div class="col wallpaper">
+                <div class="container pt-5 text-center">
+                  <h1>Services</h1>
+                  <p class="d-none d-md-block">Need a video to be edited? Photos to be created? A website? I can help with any of those!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <h2>What Needs Done?</h2>
+                <p>Do you have some footage that you would like edited but canno't do it youself or just dont have the time? Perhaps you would like somehting photoshopped together but dont have the program? Need a website to be built but don't have hosting?</p>
+                <p>Well your in luck! While I may be new to things that doesn't mean I cannot assit you with what you need. I can edit videos for you, photoshop a cat eating a taco and post both onto your brand new website that i helped built!</p>
+                <p>All of these things I can do you for all for a reasonible price. I mean i do understand how expensive somethings can be!</p>
+              </div>
+              <div class="col-md-4">
+                <img id="phone" src="img/image2.jpg">
+              </div>
+            </div>
+          </div>
+
+          <div class="container">
+              <div class="ro">
+                  <div class="col">
+                    <table>
+                        <tr>
+                            <th>Type</th>
+                            <th>Program utilized</th>
+                        </tr>
+
+                        <tr>
+                            <td>Website</td>
+                            <td>Visual Studio Code</td>
+                        </tr>
+
+                        <tr>
+                            <td>Video</td>
+                            <td>Adobe Premiere Pro</td>
+                        </tr>
+
+                        <tr>
+                            <td>Photos</td>
+                            <td>Adobe Photoshop</td>
+                        </tr>
+                    </table>
+                  </div>
+              </div>
+          </div>
+        </section>
+
+        <footer id="main-footer" class="text-center p-4">
+            <div class="container">
+              <div class="row">
+                <div class="col">
+                  <p>Copyright &copy;
+                  <span id="year"></span> mDubsProductions</p>
+                </div>
+              </div>
+            </div>
+          </footer>
+
     <!-- These script tags must be in this order -->
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script>
         //Custom scripts (internal script or external sript)
+        $('#year').text(new Date().getFullYear());
     </script>
 </body>
 
